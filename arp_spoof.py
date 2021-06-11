@@ -45,7 +45,7 @@ try :
     spoof(target_ip , gateway_ip)
     spoof(gateway_ip , target_ip)
     sent_packages_count = sent_packages_count + 2
-    print("\r [-] Packets sent : " + str(sent_packages_count)) ,\
+    print("\r [+] Packets sent : " + str(sent_packages_count)) ,\
     # print("\r [-] Packets sent : " + str(sent_packages_count) , end = "") and remove sys module for py3.
     sys.stdout.flush()
     time.sleep(2)
